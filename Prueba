@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página de Videos</title>
+    <style>
+        /* Estilos básicos para la página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        
+        /* Estilo de la cabecera */
+        .header {
+            background-color: #282828;
+            color: #ffffff;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .header .search-bar {
+            display: flex;
+            align-items: center;
+        }
+        
+        .header .search-bar input {
+            width: 300px;
+            padding: 8px;
+            border: none;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        
+        .header .search-bar button {
+            padding: 8px 16px;
+            background-color: #ff0000;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        /* Estilo de la navegación */
+        .nav {
+            background-color: #e2e2e2;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .nav a {
+            color: #000000;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 16px;
+        }
+        
+        .nav a:hover {
+            background-color: #cccccc;
+            border-radius: 4px;
+        }
+        
+        /* Estilo del contenido */
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .video-card {
+            background-color: #ffffff;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 300px;
+            overflow: hidden;
+        }
+        
+        .video-card img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .video-card .video-info {
+            padding: 15px;
+        }
+        
+        .video-card .video-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        
+        .video-card .video-description {
+            font-size: 14px;
+            color: #555555;
+        }
+        
+        /* Estilo del pie de página */
+        .footer {
+            background-color: #282828;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabecera de la página -->
+    <div class="header">
+        <div class="logo">Mi Página de Videos</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar...">
+            <button>Buscar</button>
+        </div>
+    </div>
+
+    <!-- Navegación principal -->
+    <div class="nav">
+        <a href="#">Inicio</a>
+        <a href="#">Videos</a>
+        <a href="#">Categorías</a>
+        <a href="#">Contacto</a>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="content">
+        <!-- Tarjeta de video -->
+        <div class="video-card">
+            <img src="https://via.placeholder.com/300x200" alt="Video 1">
+            <div class="video-info">
+                <div class="video-title">Título del Video 1</div>
+                <div class="video-description">Descripción breve del video.</div>
+            </div>
+        </div>
+
+        <!-- Tarjeta de video -->
+        <div class="video-card">
+            <img src="https://via.placeholder.com/300x200" alt="Video 2">
+            <div class="video-info">
+                <div class="video-title">Título del Video 2</div>
+                <div class="video-description">Descripción breve del video.</div>
+            </div>
+        </div>
+
+        <!-- Tarjeta de video -->
+        <div class="video-card">
+            <img src="https://via.placeholder.com/300x200" alt="Video 3">
+            <div class="video-info">
+                <div class="video-title">Título del Video 3</div>
+                <div class="video-description">Descripción breve del video.</div>
+            </div>
+        </div>
+
+        <!-- Tarjeta de video -->
+        <div class="video-card">
+            <img src="https://via.placeholder.com/300x200" alt="Video 4">
+            <div class="video-info">
+                <div class="video-title">Título del Video 4</div>
+                <div class="video-description">Descripción breve del video.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <div class="footer">
+        © 2024 Mi Página de Videos
+    </div>
+</body>
+</html>
